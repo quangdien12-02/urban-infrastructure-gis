@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+*.pem
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build
+build/
+dist/
+.next/
+out/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+.eslintignore
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+.docker/
+.dockerignore
+
+# Uploads
+uploads/
+temp/
+
+# Testing
+.nyc_output/
+coverage/
+*.lcov
+
+# Production
+.env.production
+.env.production.local
